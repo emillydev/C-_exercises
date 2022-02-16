@@ -12,5 +12,5 @@ int main() {
     x = a + b;
     printf("O resultado da soma e igual a: %d",x);
     printf("O resultado da soma e igual a: %d\n",&x);//impressão de endereço na memoria em decimal
-    printf("O resultado da soma e igual a: %d",x);//impressaõ do endereço de memoria em hexadecimal
+    printf("O resultado da soma e igual a: %d\n",x);//impressaõ do endereço de memoria em hexadecimal
 }
