@@ -1,4 +1,7 @@
 #include <stdio.h>
+#define P1 2
+#define P2 3
+#define P3 5
 
 int main (){
     double a, b, c, x;
@@ -9,7 +12,6 @@ int main (){
     scanf("%lf", &b);
     printf("Digite a terceira nota: ");
     scanf("%lf", &c);
-    x = (a*2 + b*3 + c*5)/10;
-    printf("Media do aluno: %.2lf", x);
+    //x = (a*P1 + b*P2 + c*P3)/10;
+    printf("Media do aluno: %.2lf", (a*P1 + b*P2 + c*P3)/10);//[2]add casa decimal
 }
-//falta colocar só uma casa decimal no x
