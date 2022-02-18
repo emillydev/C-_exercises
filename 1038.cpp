@@ -1,5 +1,5 @@
 #include<stdio.h>
-#
+
 int main(){
     int item, quant, total;
     printf("Escolha um item: ");
