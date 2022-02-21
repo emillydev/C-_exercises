@@ -18,7 +18,7 @@ int main (){
     //delta = b*b - (4*a*c);
     if (delta >= 0 && a != 0) //raiz negativa e divisor igual a 0
         {x1 = ((-b) + sqrt(delta))/(2*a);
-        x2 = (b + sqrt(delta))/(2*a);
+        x2 = ((-b) - sqrt(delta))/(2*a);
         printf("X'= %.5lf\n", x1);
         printf("X''= %.5lf\n", x2);}
 
